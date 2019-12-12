@@ -53,6 +53,7 @@ namespace DoToo.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Xamarin.Forms.Forms.Init(e);
+                Bootstrapper.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

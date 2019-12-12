@@ -1,7 +1,8 @@
-﻿using System;
+﻿using DoToo.Models;
+using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
-using DoToo.Models;
 
 namespace DoToo.Repositories
 {
@@ -10,7 +11,7 @@ namespace DoToo.Repositories
         event EventHandler<TodoItem> OnItemAdded;
         event EventHandler<TodoItem> OnItemUpdated;
 
-        Task<List<TodoItem>> GetItem();
+        Task<List<TodoItem>> GetItems();
         Task AddItem(TodoItem item);
         Task UpdateItem(TodoItem item);
         Task AddOrUpdate(TodoItem item);

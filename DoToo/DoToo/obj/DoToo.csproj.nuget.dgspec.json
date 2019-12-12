@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {}
+    "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {
+    "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj",
         "projectName": "DoToo",
-        "projectPath": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj",
-        "packagesPath": "C:\\Users\\m.valtingojer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\obj\\",
+        "projectPath": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\m.valtingojer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

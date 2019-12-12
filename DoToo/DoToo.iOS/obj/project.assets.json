@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.6.292": {
         "type": "package",
         "dependencies": {
@@ -201,6 +210,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "4.9.4",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991221",
           "sqlite-net-pcl": "1.6.292"
@@ -214,6 +224,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.6.292": {
         "type": "package",
         "dependencies": {
@@ -413,6 +432,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "4.9.4",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991221",
           "sqlite-net-pcl": "1.6.292"
@@ -426,6 +446,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.6.292": {
         "type": "package",
         "dependencies": {
@@ -625,6 +654,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "4.9.4",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991221",
           "sqlite-net-pcl": "1.6.292"
@@ -638,6 +668,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.6.292": {
         "type": "package",
         "dependencies": {
@@ -837,6 +876,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "4.9.4",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991221",
           "sqlite-net-pcl": "1.6.292"
@@ -851,6 +891,26 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.4": {
+      "sha512": "dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "type": "package",
+      "path": "autofac/4.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.4.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
     "sqlite-net-pcl/1.6.292": {
       "sha512": "TZPs206/ZZXhDAgCzxE5Dmw1enkRmtpd1RKt+dLJA6Kvml4RxwkasRs4js2kijtGxik1SLCs39rh9nl9YFwrYg==",
       "type": "package",
@@ -1313,24 +1373,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m.valtingojer\\.nuget\\packages\\": {},
+    "C:\\Users\\Manuel\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo.iOS\\DoToo.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo.iOS\\DoToo.iOS.csproj",
       "projectName": "DoToo.iOS",
-      "projectPath": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo.iOS\\DoToo.iOS.csproj",
-      "packagesPath": "C:\\Users\\m.valtingojer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo.iOS\\DoToo.iOS.csproj",
+      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\m.valtingojer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1344,8 +1404,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {
-              "projectPath": "C:\\Users\\m.valtingojer\\Source\\Repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj"
+            "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj": {
+              "projectPath": "C:\\Users\\Manuel\\source\\repos\\DoToo\\DoToo\\DoToo\\DoToo.csproj"
             }
           }
         }
